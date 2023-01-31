@@ -6,6 +6,37 @@
     padding-right: 16px;
   }
 
+  /* -----------FOOTER---------- */
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .footer-text {
+    text-align: start;
+  }
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-div1 {
+    margin-bottom: 72px;
+  }
+
+  .footer-div2 {
+    margin-bottom: 72px;
+  }
+
+  .input-footer {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  /* -------------FIRST-PAGE---------------- */
+
   /* ------------HERO------------ */
 
   .hero {
@@ -96,33 +127,36 @@
     width: 190px;
   }
 
-  /* -----------FOOTER---------- */
-  .footer {
-    padding-top: 96px;
-    padding-bottom: 96px;
+  /* ----------------SECOND-PAGE--------- */
+
+  /* -----------CARD---------- */
+
+  .menu {
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
 
-  .footer-text {
-    text-align: start;
-  }
-  .footer-div {
-    display: flex;
+  .filter {
     flex-wrap: wrap;
+    margin-bottom: 48px;
+    width: 268px;
+  }
+
+  .filter-button {
+    padding: 8px 16px;
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
-    text-align: center;
   }
 
-  .footer-div1 {
-    margin-bottom: 72px;
+  .card-link {
+    max-width: 396px;
   }
 
-  .footer-div2 {
-    margin-bottom: 72px;
-  }
-
-  .input-footer {
+  .card-img {
     width: 100%;
-    margin-bottom: 16px;
   }
 }
 

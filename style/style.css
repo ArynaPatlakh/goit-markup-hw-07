@@ -784,7 +784,7 @@ a {
 
 .benefits-list {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .benefits-item {
@@ -970,10 +970,11 @@ a {
 
 .filter {
   display: flex;
-  gap: 24px;
-  justify-content: center;
+  row-gap: 16px;
+  column-gap: 24px;
+  /* justify-content: center; */
 
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .filter-button {
@@ -983,7 +984,7 @@ a {
   border: 1px solid #e7e9fc;
   background-color: var(--exception-color);
 
-  padding: 12px 24px;
+  /* padding: 12px 24px; */
 
   color: var(--accent-color);
   font-family: Roboto, sans-serif;
@@ -1012,8 +1013,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  width: calc((100% - 48) / 3);
-  column-gap: 24px;
+  /* width: calc((100% - 48) / 3); */
+  /* column-gap: 24px; */
 }
 
 .card-link {
