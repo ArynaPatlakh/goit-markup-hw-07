@@ -1,0 +1,133 @@
+@media screen and (min-width: 320px) {
+  .container {
+    min-width: 320px;
+    max-width: 480px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* ------------HERO------------ */
+
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.11;
+
+    width: 318px;
+    margin-bottom: 72px;
+  }
+
+  /* --------ABOUT---- */
+
+  .about {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .about-icon {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .about-text {
+    font-weight: 500;
+  }
+
+  /* --------------BENEFITS---------- */
+  .benefits {
+    display: none;
+  }
+
+  /* -------------OUR-TEAM------------ */
+  .team {
+    padding-top: 96px;
+    padding-bottom: 128px;
+  }
+
+  .team-list {
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .team-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .team-subtitle {
+    font-weight: 500;
+  }
+
+  /* ---------CUSTUMERS---------- */
+
+  .cust {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .cust-list {
+    flex-wrap: wrap;
+    column-gap: 16px;
+    justify-content: center;
+  }
+
+  .cust-item {
+    margin-top: 72px;
+  }
+
+  .cust-link {
+    width: 190px;
+  }
+
+  /* -----------FOOTER---------- */
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .footer-text {
+    text-align: start;
+  }
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-div1 {
+    margin-bottom: 72px;
+  }
+
+  .footer-div2 {
+    margin-bottom: 72px;
+  }
+
+  .input-footer {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
