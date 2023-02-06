@@ -11,7 +11,7 @@
 /* Незмінні частини сторінок та основні властивості */
 
 .container {
-  max-width: 1158px;
+  /* max-width: 1158px; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -25,12 +25,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header {
+/* .header {
   background-color: var(--secondary-text-color);
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+} */
 
 ul,
 ol {
@@ -56,6 +56,7 @@ h6 {
 a {
   text-decoration: none;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -79,7 +80,7 @@ a {
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  margin-right: 72px;
+  /* margin-right: 72px; */
   display: block;
 }
 
@@ -160,14 +161,14 @@ a {
   /* display: flex; */
   margin-left: auto;
   align-items: center;
-  gap: 40px;
+  /* gap: 40px; */
 }
 
 .link-contact {
   text-decoration: none;
   color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
+  /* font-size: 16px;
+  line-height: 1.5; */
 
   transition-property: color;
   transition-duration: 250ms;
@@ -285,8 +286,6 @@ a {
   right: 24px;
 }
 
-/* ---------------------FOOTER-ICON----------------- */
-
 .footer-div {
   /* display: flex; */
 }
@@ -295,9 +294,12 @@ a {
   /* margin-right: 120px; */
 }
 
+/* ---------------------FOOTER-ICON----------------- */
+
 .footer-list {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .footer-item-link {
@@ -355,7 +357,6 @@ a {
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scaleY(0);
-
   transform-origin: bottom;
 }
 
@@ -374,7 +375,7 @@ a {
 
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  transition-property: background-colore fill border-color;
+  transition-property: background-color fill border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -597,8 +598,8 @@ a {
 /* ---------------------Hero---------------------- */
 
 .hero {
-  padding-top: 192px;
-  padding-bottom: 192px;
+  /* padding-top: 192px;
+  padding-bottom: 192px; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -661,8 +662,8 @@ a {
 /* -------------------------------About Company----------------------------- */
 
 .about {
-  /* padding-top: 120px; */
-  /* padding-bottom: 120px; */
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 
 .about-list {
@@ -692,7 +693,7 @@ a {
 /* ---------ABOUT-ICON------------- */
 
 .about-icon {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 
@@ -778,29 +779,6 @@ a {
 
 /* -----------------------What are we doing------------------------------------- */
 
-.benefits {
-  padding-bottom: 120px;
-}
-
-.benefits-list {
-  display: flex;
-  /* gap: 24px; */
-}
-
-.benefits-item {
-  width: calc((100% - 48px) / 3);
-}
-
-.benefits-title {
-  margin-bottom: 72px;
-
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-}
-
 /* -----------------------------------Our Team------------------------------- */
 
 .team {
@@ -830,9 +808,8 @@ a {
 }
 
 .team-list {
-  /* display: flex;
-  gap: 24px;
-  width: calc((100% - 72px) / 4); */
+  display: flex;
+  /* gap: 24px; */
 }
 
 .team-img {
@@ -900,7 +877,7 @@ a {
 }
 
 .cust-title {
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 
   color: var(--title-text-color);
   font-size: 36px;
@@ -916,9 +893,9 @@ a {
 
 /* -----------------------ICON-CUSTUMERS------------------------ */
 
-.cist-item {
-  /* display: flex; */
-}
+/* .cist-item {
+   display: flex; 
+} */
 
 .cust-link {
   display: flex;
@@ -964,8 +941,8 @@ a {
 /* --------------------------------------------Menu ------------------------*/
 
 .menu {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  /* padding-top: 96px;
+  padding-bottom: 120px; */
 }
 
 .filter {

@@ -15,10 +15,12 @@
     />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/mobile.css" />
+    <link rel="stylesheet" href="./style/tablet.css" />
+    <link rel="stylesheet" href="./style/desktop.css" />
   </head>
   <body>
     <!-- Шапка сайта-->
-    <header class="header">
+    <header class="header container">
       <div class="container">
         <nav class="header-nav">
           <a class="logo-studio-header logo" href=""
@@ -50,6 +52,67 @@
             >
           </li>
         </ul>
+      </div>
+
+      <div class="humburger">
+        <button type="button" class="humburger-btn" data-menu-open>
+          <svg width="32" height="22" class="humburger-icon">
+            <use href="./images/icon/sprite.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+        <div class="humb-menu backdrop-humb is-hidden" data-menu>
+          <button type="button" class="humb-close-btn" data-menu-close>
+            <svg class="humb-close" width="8" height="8">
+              <use href="./images/icon/sprite.svg#icon-modal-close"></use>
+            </svg>
+          </button>
+          <ul class="list-humb-menu">
+            <li class="item-humb-menu">
+              <a class="link-humb-menu" href="./index.html"> Studio</a>
+            </li>
+            <li class="item-humb-menu">
+              <a class="link-humb-menu" href="./portfolio.html"> Portfolio</a>
+            </li>
+            <li class="item-humb-menu item-humb-contact">Contacts</li>
+          </ul>
+          <ul class="list-humb-contact">
+            <li class="item-humb-tel">
+              <a
+                class="link-humb-tel"
+                href="tel:+11 (000) 111-11-11"
+                class="tel-humb"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="item-humb-email">
+              <a class="link-humb-email" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item-humb-icon">
+              <a href="" class="item-link-humb-icon">
+                <svg class="icon-humb">
+                  <use href="./images/icon/sprite.svg#icon-inst"></use>
+                </svg>
+              </a>
+              <a href="" class="item-link-humb-icon">
+                <svg class="icon-humb">
+                  <use href="./images/icon/sprite.svg#icon-twit"></use>
+                </svg>
+              </a>
+              <a href="" class="item-link-humb-icon">
+                <svg class="icon-humb">
+                  <use href="./images/icon/sprite.svg#icon-face"></use>
+                </svg>
+              </a>
+              <a href="" class="item-link-humb-icon">
+                <svg class="icon-humb">
+                  <use href="./images/icon/sprite.svg#icon-link"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -349,6 +412,7 @@
           </form>
         </div>
       </div>
+      <script src="./js/menu.js"></script>
     </footer>
   </body>
 </html>

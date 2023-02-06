@@ -1,0 +1,143 @@
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+  }
+
+  .humburger {
+    display: none;
+  }
+  /* ---------------HEADER------------------- */
+
+  .header {
+    background-color: var(--secondary-text-color);
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
+  .header > .container {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .header-div {
+    display: flex;
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 118px;
+    align-content: center;
+  }
+
+  .link-contact {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+
+  .logo-studio-header {
+    margin-right: 120px;
+  }
+  .header-nav {
+    display: flex;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  /* ---------------Footer-------- */
+
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+  }
+
+  .footer-div1 {
+    margin-right: 24px;
+    margin-left: 108px;
+    width: 264px;
+  }
+
+  .footer-form {
+    display: flex;
+  }
+
+  .footer-div3 {
+    margin-left: 108px;
+    margin-right: auto;
+  }
+  .input-footer {
+    width: 264px;
+  }
+
+  /* -------------first-Page------ */
+
+  /* ---------About------------------ */
+
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+  }
+
+  .about-item {
+    width: 356px;
+  }
+
+  /* -------------------Our-Team-------------- */
+
+  .team {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    width: auto;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-item {
+    margin-bottom: 0;
+  }
+
+  /* -------------------Custumer------- */
+
+  .cust-list {
+    column-gap: 24px;
+  }
+
+  .cust-item {
+    width: 168px;
+  }
+
+  /* -------SECOND-PAGE------------ */
+
+  .menu {
+    padding-bottom: 96px;
+  }
+
+  .card {
+    column-gap: 24px;
+    justify-content: start;
+  }
+
+  .card-link {
+    width: 356px;
+  }
+
+  .card-item {
+    width: 356px;
+  }
+
+  .filter {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 64px;
+    width: 100%;
+  }
+}
