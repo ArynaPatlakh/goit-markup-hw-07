@@ -1,7 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1200px;
-    max-width: 1158px;
+    min-width: 1158px;
   }
 
   /* ----------------------FOOTER--------- */
@@ -15,20 +14,22 @@
 
   .footer-div1 {
     margin-right: 120px;
-    margin-left: auto;
-    margin-bottom: auto;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .footer-div2 {
-    margin-bottom: auto;
+    margin-bottom: 0;
   }
 
   .footer-div3 {
     margin-left: 80px;
+    margin-right: 0;
   }
 
   .input-footer {
     width: 264px;
+    margin-bottom: 0;
   }
 
   /* -----------------HEADER------------ */
@@ -52,14 +53,13 @@
     gap: 40px;
     align-items: center;
   }
+
   .link-contact {
     font-size: 16px;
     line-height: 1.5;
   }
 
-  .logo {
-    margin-right: 72px;
-  }
+
 
   /* ----------------HERO------------------ */
 
