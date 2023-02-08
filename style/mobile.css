@@ -51,6 +51,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 40px;
+    padding-bottom: 10px;
   }
 
   .item-humb-menu {
@@ -59,6 +60,9 @@
     line-height: 1.11;
   }
 
+  .link-humb-menu.current {
+    color: var(--accent-color);
+  }
   .link-humb-menu {
     color: #2e2f42;
   }
@@ -71,10 +75,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 40px;
+    padding-bottom: 48px;
   }
 
   .item-humb-tel {
-    padding-bottom: 40px;
+    text-align: justify;
   }
 
   .link-humb-tel {
@@ -85,7 +91,6 @@
   }
 
   .item-humb-email {
-    padding-bottom: 48px;
   }
 
   .link-humb-email {
@@ -97,12 +102,12 @@
 
   .item-humb-icon {
     display: flex;
-    gap: 56px;
-    justify-content: center;
+    justify-content: space-around;
+    max-width: 328px;
   }
 
   .item-link-humb-icon {
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #4d5ae5;
@@ -118,6 +123,7 @@
   }
 
   .humb-close-btn {
+    padding: 0;
     position: absolute;
     cursor: pointer;
     right: 40px;
@@ -306,5 +312,27 @@
         ),
         url(../images/hero-bcg-mob2x.jpg);
     }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .modal {
+    max-width: 100%;
+  }
+
+  .link-humb-tel {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 397px) and (max-width: 425px) {
+  .link-humb-tel {
+    font-size: 31px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 321px) {
+  .link-humb-tel {
+    font-size: 24px;
   }
 }

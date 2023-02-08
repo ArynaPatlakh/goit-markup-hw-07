@@ -29,7 +29,6 @@
     margin-left: 118px;
     align-content: center;
     gap: 4px;
-
   }
 
   .link-contact {
@@ -50,12 +49,14 @@
 
   /* ---------------Footer-------- */
 
-  
-
   .footer-div {
     display: flex;
     flex-wrap: wrap;
     text-align: start;
+  }
+
+  .container-tablet {
+    min-width: 582px;
   }
 
   .footer-div1 {
@@ -67,22 +68,16 @@
     display: flex;
   }
 
-  .footer-div3 {
-
-
-   
-  }
   .input-footer {
     width: 264px;
   }
 
   /* -------------first-Page------ */
 
-
   .hero-title {
     font-weight: 700;
-font-size: 56px;
-line-height: 60px;
+    font-size: 56px;
+    line-height: 60px;
   }
   /* ---------About------------------ */
 
@@ -94,9 +89,8 @@ line-height: 60px;
     justify-content: center;
   }
 
-
   .about-title {
-text-align: start;
+    text-align: start;
   }
   .about-item {
     width: 356px;
