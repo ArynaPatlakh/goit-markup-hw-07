@@ -11,7 +11,6 @@
 /* Незмінні частини сторінок та основні властивості */
 
 .container {
-  /* max-width: 1158px; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -70,7 +69,7 @@ a {
   margin: -1px;
 }
 
-/* Logo */
+/* ------------------Logo----------------------- */
 
 .logo {
   font-family: "Raleway";
@@ -80,7 +79,6 @@ a {
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  /* margin-right: 72px; */
   display: block;
 }
 
@@ -97,19 +95,13 @@ a {
   margin-right: 0;
 }
 
-/* Nav */
-
-.header > .container {
-  /* display: flex; */
-}
+/* -----------------Nav--------------------------- */
 
 .header-nav {
-  /* display: flex; */
   align-items: center;
 }
 
 .navigation {
-  /* display: flex; */
   gap: 40px;
   align-items: center;
 }
@@ -158,17 +150,13 @@ a {
 }
 
 .contact {
-  /* display: flex; */
   margin-left: auto;
   align-items: center;
-  /* gap: 40px; */
 }
 
 .link-contact {
   text-decoration: none;
   color: var(--primary-text-color);
-  /* font-size: 16px;
-  line-height: 1.5; */
 
   transition-property: color;
   transition-duration: 250ms;
@@ -182,17 +170,7 @@ a {
 
 /* --------------------------------Footer-------------------- */
 .footer {
-  /* display: flex; */
-
   background-color: var(--title-text-color);
-
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
-}
-
-.footer-div {
-  /* display: flex; */
-  /* align-items: start; */
 }
 
 .footer-text {
@@ -214,10 +192,6 @@ a {
   margin-bottom: 16px;
 }
 
-.footer-div3 {
-  /* margin-left: auto; */
-}
-
 .footer-title-form {
   margin-bottom: 16px;
 
@@ -233,7 +207,6 @@ a {
   background-color: transparent;
   outline: none;
 
-  /* width: 264px; */
   height: 40px;
 
   font-weight: 400;
@@ -266,7 +239,6 @@ a {
 
   color: #ffffff;
 
-  margin-left: 24px;
   padding-left: 24px;
   text-align: start;
 
@@ -284,14 +256,6 @@ a {
   position: absolute;
   bottom: 8px;
   right: 24px;
-}
-
-.footer-div {
-  /* display: flex; */
-}
-
-.footer-div1 {
-  /* margin-right: 120px; */
 }
 
 /* ---------------------FOOTER-ICON----------------- */
@@ -337,7 +301,7 @@ a {
 }
 
 .modal {
-
+  padding: 0;
   position: absolute;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(-50%, -50%) scaleY(1);
@@ -447,11 +411,6 @@ a {
 }
 
 .modal-textarea {
-  /* font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.04em;
-  color: rgba(117, 117, 117, 0.5); */
-
   height: 120px;
   resize: none;
   outline: none;
@@ -599,8 +558,6 @@ a {
 /* ---------------------Hero---------------------- */
 
 .hero {
-  /* padding-top: 192px;
-  padding-bottom: 192px; */
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -616,14 +573,12 @@ a {
 .hero-title {
   color: var(--secondary-text-color);
   font-weight: 700;
-  /* font-size: 56px;
-  line-height: 1.07; */
+
   text-align: center;
 
   max-width: 495px;
 
   margin: auto;
-  /* margin-bottom: 48px; */
 }
 
 .hero-button {
@@ -657,27 +612,8 @@ a {
 
 /* -------------------------------About Company----------------------------- */
 
-.about {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-}
-
-.about-list {
-  /* display: flex;
-  gap: 24px; */
-}
-
-.about-item {
-  /* width: calc((100% - 72px) / 4); */
-}
-
 .about-title {
   margin-bottom: 8px;
-
-  /* color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2; */
 }
 
 .about-text {
@@ -689,7 +625,6 @@ a {
 /* ---------ABOUT-ICON------------- */
 
 .about-icon {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 
@@ -778,9 +713,6 @@ a {
 /* -----------------------------------Our Team------------------------------- */
 
 .team {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-
   background-color: var(--exception-color);
 }
 
@@ -805,7 +737,6 @@ a {
 
 .team-list {
   display: flex;
-  /* gap: 24px; */
 }
 
 .team-img {
@@ -867,11 +798,6 @@ a {
 
 /* ----------------------------------------CUSTOMERS------------------------ */
 
-.cust {
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-}
-
 .cust-title {
   margin-bottom: 72px;
 
@@ -884,21 +810,15 @@ a {
 
 .cust-list {
   display: flex;
-  /* gap: 24px; */
 }
 
 /* -----------------------ICON-CUSTUMERS------------------------ */
-
-/* .cist-item {
-   display: flex; 
-} */
 
 .cust-link {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  /* width: 168px; */
   height: 88px;
 
   border: 1px solid #8e8f99;
@@ -936,18 +856,10 @@ a {
 
 /* --------------------------------------------Menu ------------------------*/
 
-.menu {
-  /* padding-top: 96px;
-  padding-bottom: 120px; */
-}
-
 .filter {
   display: flex;
   row-gap: 16px;
   column-gap: 24px;
-  /* justify-content: center; */
-
-  /* margin-bottom: 72px; */
 }
 
 .filter-button {
@@ -956,8 +868,6 @@ a {
   border-radius: 4px;
   border: 1px solid #e7e9fc;
   background-color: var(--exception-color);
-
-  /* padding: 12px 24px; */
 
   color: var(--accent-color);
   font-family: Roboto, sans-serif;
@@ -986,8 +896,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  /* width: calc((100% - 48) / 3); */
-  /* column-gap: 24px; */
 }
 
 .card-link {
